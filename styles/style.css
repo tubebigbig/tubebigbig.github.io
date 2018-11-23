@@ -1,0 +1,35 @@
+html {
+    font-size: 10px
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color:white;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /*the space around the outside of the element*/
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px; /*the space just around the content*/
+    border: 5px solid black;    /*the solid line that sits just outside the padding*/
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1,h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+}
+
