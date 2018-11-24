@@ -1,11 +1,11 @@
 html {
-    font-size: 10px
+    font-size: 10px;
     font-family: 'Noto Sans TC', sans-serif;
     background-color:white;
 }
 
 body {
-    width: 600px;
+    width: auto;
     margin: 0 auto; /*the space around the outside of the element*/
     background-color: #FF9500;
     padding: 0 20px 20px 20px; /*the space just around the content*/
@@ -26,6 +26,11 @@ h1,h2 {
     text-align: center;
 }
 
+h3 {
+
+    font-size: 20px;
+}
+
 p,li {
     font-size: 16px;
     line-height: 2;
@@ -33,3 +38,43 @@ p,li {
     
 }
 
+
+ul {
+    font-size: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-right: 2em;
+    padding-left: 2em;
+    overflow: hidden;
+}
+
+div {
+    box-sizing: border-box;
+    display: table-row-group
+}
+
+/*
+header {
+    text-align: center
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 58px;
+    background: #262829;
+}*/
