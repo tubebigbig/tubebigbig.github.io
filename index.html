@@ -4,8 +4,16 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <!--    html keyword-->
+    <meta name="keywords" content="HTML,tubebigbig">
+    <!--    screen will ahange with your mobile-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+
     <!--      <link href="site.css" rel="stylesheet" type="text/css">-->
     <link rel="icon" href="images/icon.png">
 
@@ -13,47 +21,143 @@
 </head>
 
 <body>
-    <header class="full">
-        <div class="headbar">
-            <a href="index.html">Home</a>
-            <a href="buy.html">BuyNow</a>
-            <a href="social.html">social</a>
+    <header>
+        <div class="row">
+            <ul class="list-reset">
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="social.html">About</a></li>
+
+            </ul>
+            <a id="mail" href="mailto:tubebigbig@gamil.com">tubebigbig@gmail.com</a>
         </div>
-            <a id="mail" href="mailto:tubebigbig@gamil.com">tubebigbig@gmail.com</a>        
+
     </header>
 
 
-    
+
 
     <section>
-        
-        <h1>My main title</h1>
+        <div id="title">
+            <h1>台灣人</h1>
+            <h2>My second title</h2>
+        </div>
 
-        <h2>My second title</h2>
-        
+
         <picture>
             <source media="(min-width: 1350px)" srcset="images/p6CSn6GZj6OX.jpg">
             <source media="(min-width: 660px)" srcset="images/mouse.jpeg">
             <img src="images/mouse.jpeg" alt="Flowers" style="width:auto;">
-            
+
         </picture>
 
 
-
-        <p>how are you? this is my first to do a &lt;html&gt;.</p>
+        <!--strong and em is mean important-->
+        <p><b>how</b> <strong>are</strong> <i>you</i>? <em>this</em> <mark>is</mark> <small>my</small> <del>first</del>
+            <ins>to do</ins> <sub>a</sub> &lt;html&gt;.</p>
         <ol>
             <li>apple</li>
             <li>banana</li>
             <li>cat</li>
         </ol>
 
+        <p>WWWWWW<q>qqqqqqq</q></p>
+
+        <p>this is <abbr title="title">title</abbr></p>
+
+        <address>
+            addresss<br>
+            apple,banana<br>
+            addresss
+        </address>
+
+        <blockquote cite="#" id="test">
+            this is blackquote
+        </blockquote>
+
+        <p><cite>work title</cite> by a line</p>
+
+        <bdo dir="rtl">this is a tree</bdo>
+
+        <table style="width: auto">
+            <tr>
+                <th>Name</th>
+                <th>cellphone</th>
+                <th>addresss</th>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>34-23144023</td>
+                <td>i don't know</td>
+            </tr>
+        </table>
+        <br>
+        <table style="width:100%">
+            <caption>see me</caption>
+            <tr>
+                <th>Name:</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>55577854</td>
+            </tr>
+            <tr>
+                <td>55577855</td>
+            </tr>
+        </table>
 
 
-        <p>type your name:<input type="text"></p>
+        <div style="float: left;width: 30%">
+            <dl>
+                <dt>coffee</dt>
+                <dd>-drink it</dd>
+                <dt>milk</dt>
+                <dd>like shit</dd>
+            </dl>
+        </div>
+        <div style="width: 5%">
+            <ol type="i">
+                <li>coffee</li>
+                <li>tea</li>
+                <li>milk</li>
+            </ol>
+        </div>
+
+
+
+        <div style="clear: left"></div>
+
+        <p id="inputname">type your name:<input type="text"></p>
+
+        <iframe src="buy.html" style="height: 200px;width: 300px;border: none"></iframe>
 
         <br>
+
+        <form action="" method="get">
+            <fieldset>
+                <legend>Personal information</legend>
+                First name:<br />
+                <input type="text" name="firstname"><br />
+                Last name:<br />
+                <input type="text" name="lastname"><br /><br />
+                <input type="submit" value="submit">
+
+                <select>
+                    <option value="apple">apple</option>
+                    <option value="banana">banana</option>
+                    <option value="car">car</option>
+
+                </select>
+            </fieldset>
+
+
+
+        </form>
+
         <a href="#"> <button id="gotobuy">Change User</button></a>
-        <a href="https://www.google.com.tw/search?q=%E8%80%81%E9%BC%A0&client=ubuntu&hs=ZVC&tbm=isch&source=lnt&tbs=itp:clipart&sa=X&ved=0ahUKEwj0vISQs-reAhUL7LwKHW2ZB0QQpwUIHQ&biw=960&bih=922&dpr=1#imgrc=PAVeMchUtYce5M:" title="mouse picture"><img src="images/mouse.jpeg" alt="My test image"></a>
+        <a href="https://www.google.com.tw/search?q=%E8%80%81%E9%BC%A0&client=ubuntu&hs=ZVC&tbm=isch&source=lnt&tbs=itp:clipart&sa=X&ved=0ahUKEwj0vISQs-reAhUL7LwKHW2ZB0QQpwUIHQ&biw=960&bih=922&dpr=1#imgrc=PAVeMchUtYce5M:"
+            target="_blank" title="mouse picture"><img src="images/mouse.jpeg" alt="My test image"></a>
 
     </section>
 

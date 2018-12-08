@@ -1,14 +1,9 @@
-var myImage = document.querySelector('img');
+var car = {
+    type: "hi",
+    pen: "one",
+    apple: "gread"
+};
 
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/mouse.jpeg'){
-        myImage.setAttribute('src','images/p6CSn6GZj6OX.jpg');
-    }else {
-         myImage.setAttribute('src','images/mouse.jpeg');
-    }
-       
-    
-    
-}
+document.getElementById("papar").innerHTML = car.pen;
 
+document.getElementsByName("1223").innerHTML
