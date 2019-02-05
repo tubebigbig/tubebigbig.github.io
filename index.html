@@ -1,168 +1,209 @@
 <!DOCTYPE html>
 <html>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-<head>
+    * {
+        box-sizing: border-box;
+    }
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <!--    html keyword-->
-    <meta name="keywords" content="HTML,tubebigbig">
-    <!--    screen will ahange with your mobile-->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    /* Full-width input fields */
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
 
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
 
+    /* Set a style for all buttons */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
 
-    <!--      <link href="site.css" rel="stylesheet" type="text/css">-->
-    <link rel="icon" href="images/icon.png">
+    button:hover {
+        opacity: 1;
+    }
 
-    <title>My favorite page</title>
-</head>
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+    }
+
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+
+    /* Add padding to container elements */
+    .container {
+        padding: 0;
+        height: 100%;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: #474e5d;
+        text-align: center
+    }
+
+    .modal:before {
+        content: "";
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .modal .modal-content {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 5% auto;
+        /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 60%;
+        /* Could be more or less, depending on screen size */
+
+    }
+
+    /* Style the horizontal ruler */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    /* The Close Button (x) */
+    .close {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+
+    /* Clear floats */
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .video-container {
+
+        position: relative;
+
+        padding-bottom: 56.25%;
+
+        
+
+        height: 0;
+
+        overflow: hidden;
+
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+    }
+
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+
+        .cancelbtn,
+        .signupbtn {
+            width: 100%;
+        }
+    }
+</style>
 
 <body>
-    <header>
-        <div class="row">
-            <ul class="list-reset">
-                <li class="selected"><a href="index.html">Home</a></li>
-                <li><a href="buy.html">Buy</a></li>
-                <li><a href="social.html">About</a></li>
 
-            </ul>
-            <a id="mail" href="mailto:tubebigbig@gamil.com">tubebigbig@gmail.com</a>
-        </div>
+    <h2>Modal Signup Form</h2>
 
-    </header>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
 
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none';window.location.reload('modal')" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <div class="video-container"> <iframe width="560" height="315" src="https://www.youtube.com/embed/QeuuDYOQ284"
+                    frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
-
-
-    <section>
-        <div id="title">
-            <h1>台灣人很棒123</h1>
-            <h2>My second title</h2>
-        </div>
-
-
-        <picture>
-            <source media="(min-width: 1350px)" srcset="images/p6CSn6GZj6OX.jpg">
-            <source media="(min-width: 660px)" srcset="images/mouse.jpeg">
-            <img src="images/mouse.jpeg" alt="Flowers" style="width:auto;">
-
-        </picture>
-
-
-        <!--strong and em is mean important-->
-        <p><b>how</b> <strong>are</strong> <i>you</i>? <em>this</em> <mark>is</mark> <small>my</small> <del>first</del>
-            <ins>to do</ins> <sub>a</sub> &lt;html&gt;.</p>
-        <ol>
-            <li>apple</li>
-            <li>banana</li>
-            <li>cat</li>
-        </ol>
-
-        <p>WWWWWW<q>qqqqqqq</q></p>
-
-        <p>this is <abbr title="title">title</abbr></p>
-
-        <address>
-            addresss<br>
-            apple,banana<br>
-            addresss
-        </address>
-
-        <blockquote cite="#" id="test">
-            this is blackquote
-        </blockquote>
-
-        <p><cite>work title</cite> by a line</p>
-
-        <bdo dir="rtl">this is a tree</bdo>
-
-        <table style="width: auto">
-            <tr>
-                <th>Name</th>
-                <th>cellphone</th>
-                <th>addresss</th>
-            </tr>
-            <tr>
-                <td>Jack</td>
-                <td>34-23144023</td>
-                <td>i don't know</td>
-            </tr>
-        </table>
-        <br>
-        <table style="width:100%">
-            <caption>see me</caption>
-            <tr>
-                <th>Name:</th>
-                <td>Bill Gates</td>
-            </tr>
-            <tr>
-                <th rowspan="2">Telephone:</th>
-                <td>55577854</td>
-            </tr>
-            <tr>
-                <td>55577855</td>
-            </tr>
-        </table>
-
-
-        <div style="float: left;width: 30%">
-            <dl>
-                <dt>coffee</dt>
-                <dd>-drink it</dd>
-                <dt>milk</dt>
-                <dd>like shit</dd>
-            </dl>
-        </div>
-        <div style="width: 5%">
-            <ol type="i">
-                <li>coffee</li>
-                <li>tea</li>
-                <li>milk</li>
-            </ol>
-        </div>
-
-
-
-        <div style="clear: left"></div>
-
-        <p id="inputname">type your name:<input type="text"></p>
-
-        <iframe src="buy.html" style="height: 200px;width: 300px;border: none"></iframe>
-
-        <br>
-
-        <form action="" method="get">
-            <fieldset>
-                <legend>Personal information</legend>
-                First name:<br />
-                <input type="text" name="firstname"><br />
-                Last name:<br />
-                <input type="text" name="lastname"><br /><br />
-                <input type="submit" value="submit">
-
-                <select>
-                    <option value="apple">apple</option>
-                    <option value="banana">banana</option>
-                    <option value="car">car</option>
-
-                </select>
-            </fieldset>
-
-
-
+                </div>
+            </div>
         </form>
+    </div>
 
-        <a href="#"> <button id="gotobuy">Change User</button></a>
-        <a href="https://www.google.com.tw/search?q=%E8%80%81%E9%BC%A0&client=ubuntu&hs=ZVC&tbm=isch&source=lnt&tbs=itp:clipart&sa=X&ved=0ahUKEwj0vISQs-reAhUL7LwKHW2ZB0QQpwUIHQ&biw=960&bih=922&dpr=1#imgrc=PAVeMchUtYce5M:"
-            target="_blank" title="mouse picture"><img src="images/mouse.jpeg" alt="My test image"></a>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
 
-    </section>
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                window.location.reload("modal")
+            }
+        }
+    </script>
 
-
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>
