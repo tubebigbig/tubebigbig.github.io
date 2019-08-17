@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.798d0e4e.chunk.css",
+    "main.js": "./static/js/main.9519605e.chunk.js",
+    "main.js.map": "./static/js/main.9519605e.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.5a0c5c6f.js",
+    "runtime~main.js.map": "./static/js/runtime~main.5a0c5c6f.js.map",
+    "static/js/2.34a62bdd.chunk.js": "./static/js/2.34a62bdd.chunk.js",
+    "static/js/2.34a62bdd.chunk.js.map": "./static/js/2.34a62bdd.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a03c55278886d2cf6a235a9c0ef159fa.js": "./precache-manifest.a03c55278886d2cf6a235a9c0ef159fa.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.798d0e4e.chunk.css.map": "./static/css/main.798d0e4e.chunk.css.map",
+    "static/media/bar.svg": "./static/media/bar.92950803.svg",
+    "static/media/breakfast.svg": "./static/media/breakfast.c4c2c972.svg",
+    "static/media/breeze.svg": "./static/media/breeze.410d1c42.svg",
+    "static/media/crawling-baby-silhouette.svg": "./static/media/crawling-baby-silhouette.c76c9ad5.svg",
+    "static/media/dog.svg": "./static/media/dog.6a06afa1.svg",
+    "static/media/App.scss": "./static/media/phone-alt-solid.6dbf65e5.svg",
+    "static/media/facebook-square-brands.svg": "./static/media/facebook-square-brands.7df7570f.svg",
+    "static/media/instagram-brands.svg": "./static/media/instagram-brands.cc5e92b0.svg",
+    "static/media/logo_block.svg": "./static/media/logo_block.d4ac2160.svg",
+    "static/media/logo_white.svg": "./static/media/logo_white.2540fc08.svg",
+    "static/media/mountain-range.svg": "./static/media/mountain-range.ad2b689a.svg",
+    "static/media/no-smoke-symbol.svg": "./static/media/no-smoke-symbol.74436c49.svg",
+    "static/media/phone.svg": "./static/media/phone.16543ec9.svg",
+    "static/media/room_service.svg": "./static/media/room_service.ef31df00.svg",
+    "static/media/wifi.svg": "./static/media/wifi.7e9c444b.svg"
+  }
+}
