@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6129fd588a5ec0f72f830f22a94f1c9",
+    "revision": "ec0a01508aeac7a89dc4b7f2db1b7b84",
     "url": "/f2e6/index.html"
   },
   {
-    "revision": "f5c7a93b96cdc9081dd7",
-    "url": "/f2e6/static/css/main.23fe7577.chunk.css"
+    "revision": "e9b9a136051b78172f58",
+    "url": "/f2e6/static/css/main.e860f775.chunk.css"
   },
   {
-    "revision": "9540bea8fe612ec8dd43",
-    "url": "/f2e6/static/js/2.34a62bdd.chunk.js"
+    "revision": "07a4306e2689db967e09",
+    "url": "/f2e6/static/js/2.6f8302c2.chunk.js"
   },
   {
-    "revision": "f5c7a93b96cdc9081dd7",
-    "url": "/f2e6/static/js/main.e5687554.chunk.js"
+    "revision": "e9b9a136051b78172f58",
+    "url": "/f2e6/static/js/main.51443206.chunk.js"
   },
   {
     "revision": "628639b67950b905f646",
     "url": "/f2e6/static/js/runtime~main.18da2f38.js"
+  },
+  {
+    "revision": "8eaa8a6b8750a4f03203b9b8946364b4",
+    "url": "/f2e6/static/media/Sofa.8eaa8a6b.svg"
   },
   {
     "revision": "929508038ccc98ec0099bb614307a762",
@@ -80,8 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f2e6/static/media/phone.16543ec9.svg"
   },
   {
+    "revision": "c779d6595d402fedecc9f201a985ad6e",
+    "url": "/f2e6/static/media/refrigerator.c779d659.svg"
+  },
+  {
     "revision": "ef31df00d2233ac153e23339d52ce614",
     "url": "/f2e6/static/media/room_service.ef31df00.svg"
+  },
+  {
+    "revision": "5e18caa0144b7e760ada9d9c4be6f6d3",
+    "url": "/f2e6/static/media/success.5e18caa0.svg"
   },
   {
     "revision": "7e9c444b1cb139df81d88466b495153b",
